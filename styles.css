@@ -1,0 +1,86 @@
+#tithome {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    color: rgb(136, 119, 119);
+    background-color: rgb(85, 3, 3);
+}
+
+.recipe {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color:rgb(85, 3, 3) ;
+    background-color: rgb(136, 119, 119);
+    border-spacing: 2px;
+}
+
+a:link {text-decoration: none;}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: blueviolet;
+    color: green;
+    font-size: 42px;
+}
+
+.immagini {
+    height: auto;
+    width: 722px;
+    float: left;
+}
+
+.sottotitolo {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(82, 82, 255);
+    background-color: rgb(192, 147, 192);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.descrizione {
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(122, 131, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descingr {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(192, 147, 192);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ingredienti {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(240, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.decrproc {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(192, 147, 192);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(240, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}
