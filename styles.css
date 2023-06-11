@@ -1,21 +1,39 @@
+* {
+    background-color: #E7F2F8;
+    box-sizing:border-box
+}
 #tithome {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 72px;
-    color: rgb(136, 119, 119);
-    background-color: rgb(85, 3, 3);
+    color: #74BDCB;
+    background-color:#F08080;
+    padding: 40px;
+    border: 10px solid #74BDCB
 }
 
 .recipe {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
-    color:rgb(85, 3, 3) ;
-    background-color: rgb(136, 119, 119);
-    border-spacing: 2px;
+    color: #74BDCB ;
+    background-color: #F08080;
+    margin: 2em;
+    padding: 32px;
+    border: 5px solid #74BDCB;
 }
 
-a:link {text-decoration: none;}
+a {
+    position: auto;
+    text-decoration: none;
+    color: white;
+    background-color: #f08080;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgba(98, 50, 45, 4);
+}
 
 ul {
     list-style-type: none;
@@ -26,15 +44,19 @@ ul {
 .header {
     font-family: sans-serif;
     text-align: center;
-    background-color: blueviolet;
-    color: green;
+    background-color: #F08080;
+    color: #74BDCB;
     font-size: 42px;
+    margin: 30px;
+    border: 10px solid #74BDCB
 }
 
 .immagini {
-    height: auto;
-    width: 722px;
     float: left;
+    height: auto;
+    width: 700px;
+    margin:1em;
+    border: 10px solid #74BDCB  
 }
 
 .sottotitolo {
@@ -43,25 +65,32 @@ ul {
     color: rgb(82, 82, 255);
     background-color: rgb(192, 147, 192);
     font-family:'Times New Roman', Times, serif;
+    margin-left: 25em;
+    margin-right: 5em;
 }
 
-.descrizione {
+.descrizione { 
     text-align: center;
     font-size: 22px;
     background-color: rgb(122, 131, 255);
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35em;
+    margin-right: 5em;
 }
 .descingr {
     text-align: center;
     font-size: 25px;
     background-color: rgb(192, 147, 192);
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 31em;
+    margin-right: 5em;
 }
 
-.ingredienti {
+
+ul.ingredienti {
     text-align: center;
     font-size: 20px;
-    background-color: rgb(240, 142, 142);
+    background-color:#F08080;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -81,6 +110,6 @@ ol {
     display: inline-block;
     text-align: center;
     font-size: 20px;
-    background-color: rgb(240, 142, 142);
     font-family: Arial, Helvetica, sans-serif;
 }
+
